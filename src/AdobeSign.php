@@ -191,7 +191,7 @@ class AdobeSign extends AbstractProvider
     {
         return [
             'Access-Token' => $token,
-			'Authorization ' => 'Bearer '.$token
+            'Authorization' => 'Bearer '.$token
         ];
     }
 
